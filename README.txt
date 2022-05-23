@@ -1,1 +1,1 @@
-This is out project
+This is our project
