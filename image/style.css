@@ -1,0 +1,59 @@
+div#HomePage-Title{
+  
+  height:400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+h1{
+  font-size:70px;
+}
+div.navi{
+  display:flex;
+  justify-content: space-evenly;
+  z-index:2;
+  align-items: stretch;
+  position: sticky;
+  top: 0;
+  width:100%;
+  background-color:#bee0ec;
+  height:40px;
+}
+h2{
+  text-align:center;
+}
+div.Running-Image{
+  height: 400px;
+  background-color:lavender;
+}
+
+footer{
+ height:100px;
+
+}
+div.Contact{
+  background-color:#1a6985;
+  height:150px;
+  color:#d3eaf2
+}
+div.Group-Info{
+  background-color:#0f3c4c;
+  height:100px;
+  color:#d3eaf2;
+}
+button{
+  transition-duration: 0.3s;
+}
+button.Product-Button, button.HomePage-Button, button.About-Button {
+  font-size: 34px;
+  width:calc(100% - 10px);
+  border:none;
+  background-color:#bee0ec;
+}
+button.Product-Button:hover, button.HomePage-Button:hover, button.About-Button:hover {
+  background-color: rgba(0,0,0,0.1);
+  font-style:italics;
+}
