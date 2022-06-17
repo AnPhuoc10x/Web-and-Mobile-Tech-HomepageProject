@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="product1.css">
+    <title>Hello Muay</title>
+  </head>
+  <body>
+    <div class="container">
+        <a href="menu.html"><button class="btn btn-primary">Go back</button></a>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:lavender;">
+                
+                <div id="overlay">
+                    <img id="enlarge" onclick="off()" style="width:600px;height:550px;">
+                    <a id="prev-lar" class="prev" onclick="plusImgs(-1)">❮</a>
+                    <a id="next-lar" class="next" onclick="plusImgs(1)">❯</a>
+                </div>
+
+                <div class="mySlides">    
+                    <img id="current-img" onclick="on()" style="width:100%">
+                </div>
+                    
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <div class="col-sm-6" style="background-color:lavenderblush;">
+                <h2 style="text-align:center">Thuoc diet muay</h2>
+                <p>Họ và tên: Lê Thị Muây</p>
+                <p>Tuổi: 19 tuổi</p>
+                <p>Điện toán đám mây (tiếng Anh: cloud computing), còn gọi là điện toán máy chủ ảo, là mô hình điện toán sử dụng công nghệ máy tính và phát triển dựa vào mạng Internet. Thuật ngữ "đám mây" ở đây là lối nói ẩn dụ chỉ mạng Internet (dựa vào cách được bố trí của nó trong sơ đồ mạng máy tính) và như sự liên tưởng về độ phức tạp của các cơ sở hạ tầng chứa trong nó. Ở mô hình điện toán này, mọi khả năng liên quan đến công nghệ thông tin đều được cung cấp dưới dạng các "dịch vụ", cho phép người sử dụng truy cập các dịch vụ công nghệ từ một nhà cung cấp nào đó "trong đám mây" mà không cần phải có các kiến thức, kinh nghiệm về công nghệ đó, cũng như không cần quan tâm đến các cơ sở hạ tầng phục vụ công nghệ đó.</p>
+            </div>
+        </div>
+    </div>
+    <script src="product1.js"></script>
+  </body>
+</html>

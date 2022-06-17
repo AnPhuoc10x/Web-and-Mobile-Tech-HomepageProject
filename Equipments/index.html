@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Equipment</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+
+  <body>
+    <div class="header"></div>
+    <div class="navigation">
+      <div class="lol"> <button class="HomePage-Button">Homepage</button></div>
+      <div class="lol">
+        <button class="Product-Button">Product</button>
+        <div class="overlay"></div>
+        <div class="menu">
+          <div class="MenuButton"><button>Equipments</button></div>
+          <div class="MenuButton"><button>Supplies</button></div>
+          <div class="MenuButton"><button>Parts</button></div>
+          <div class="MenuButton"><button>Accessories</button></div>
+        </div>
+      </div>
+      <div class="lol"> <button class="About-Button">About</button></div>
+    </div>
+    <div class="bodyy">
+      <div class="PageTitle">Equipment</div>
+      <div class="E1">
+        <div class="body-image">
+          <img src="http://www.pnwx.com/Equipment/MedXray/Source-Ray/Digital/SR-130D-V_1.jpg" alt="X-Ray Systems">
+        </div>
+        <div class="content">
+          <p class="ProductName">SR-130 X-Ray Generator System Features</p>
+          <p>
+            The SR-130 provides hospital quality imaging performed anywhere, anytime a portable X-Ray System is
+            transported to a patient.<br />
+            Price: $119 ~ $2,118
+          </p>
+          <button onclick="myFunction()">Show more</button>
+          <div id="myDIV">
+
+            <head>
+              <meta charset="UTF-8" />
+              <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+              <link rel="stylesheet" href="product1.css">
+              <title>Hello Muay</title>
+            </head>
+
+            <body>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-6" style="background-color:lavender;">
+
+                    <div id="overlay">
+                      <img id="enlarge" onclick="off()" style="width:600px;height:550px;">
+                      <a id="prev-lar" class="prev" onclick="plusImgs(-1)">❮</a>
+                      <a id="next-lar" class="next" onclick="plusImgs(1)">❯</a>
+                    </div>
+
+                    <div class="mySlides">
+                      <img id="current-img" onclick="on()" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                  </div>
+                  <div class="col-sm-6" style="background-color:lavenderblush;">
+                    <h2 style="text-align:center">Thuoc diet muay</h2>
+                    <p>Họ và tên: Lê Thị Muây</p>
+                    <p>Tuổi: 19 tuổi</p>
+                    <p>Điện toán đám mây (tiếng Anh: cloud computing), còn gọi là điện toán máy chủ ảo, là mô hình điện
+                      toán sử dụng công nghệ máy tính và phát triển dựa vào mạng Internet. Thuật ngữ "đám mây" ở đây là
+                      lối nói ẩn dụ chỉ mạng Internet (dựa vào cách được bố trí của nó trong sơ đồ mạng máy tính) và như
+                      sự liên tưởng về độ phức tạp của các cơ sở hạ tầng chứa trong nó. Ở mô hình điện toán này, mọi khả
+                      năng liên quan đến công nghệ thông tin đều được cung cấp dưới dạng các "dịch vụ", cho phép người
+                      sử dụng truy cập các dịch vụ công nghệ từ một nhà cung cấp nào đó "trong đám mây" mà không cần
+                      phải có các kiến thức, kinh nghiệm về công nghệ đó, cũng như không cần quan tâm đến các cơ sở hạ
+                      tầng phục vụ công nghệ đó.</p>
+                  </div>
+                </div>
+              </div>
+              <script src="product1.js"></script>
+            </body>
+          </div>
+        </div>
+      </div>
+      <div class="E2">
+        <div class="body-image">
+          <img src="http://www.pnwx.com/Equipment/Tables/Biodex/Ultrasound/SoundPro/058-710_1.jpg" alt="Table">
+        </div>
+        <div class="content">
+          <p class="ProductName">Sound Pro™ Combination Ultrasound Table</P>
+          <p>
+            The Sound Pro Combination Table combines the imaging features of both the Ultra Pro and Echo Pro tables.
+            Fully equipped for OB/GYN, general ultrasound and echocardiography, this extra wide table is ergonomically
+            designed for both patient and sonographer.<br />
+            Price: $126 ~ $14,538</p>
+          <button onclick="myFunction_2()">Show more</button>
+          <div id="myDIV_2">
+            This is my DIV element.
+          </div>
+        </div>
+      </div>
+      <div class="E3">
+        <div class="body-image">
+          <img src="http://www.pnwx.com/Equipment/MedXray/JPI/Veterinary/DV-110-DR_1.jpg" alt="DirectVet">
+        </div>
+        <div class="content">
+          <p class="ProductName">JPI's Veterinary X-Ray System</p>
+          <p>
+            DirectVet 110-volt Veterinary Digital X-Ray System is an ergonomically designed digital X-Ray System that
+            runs on a standard wall outlet and is powerful enough to replace a system that requires high voltage </br>
+            Price: $28,800</p>
+          <button onclick="myFunction_3()">Show more</button>
+          <div id="myDIV_3">
+            This is my DIV element.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"></div>
+    <div class="more">
+      <a href="http://www.pnwx.com/Equipment/"> See More >> </a>
+    </div>
+  </body>
+  <!-- partial -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>

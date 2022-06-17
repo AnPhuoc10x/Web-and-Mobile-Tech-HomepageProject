@@ -1,0 +1,134 @@
+body {
+  z-index: 0;
+}
+div.header {
+  height: 400px;
+  background-color: #dff5e5;
+}
+div.bodyy {
+  height: auto;
+  background-color: #dff2f5;
+  margin-top: 80px;
+}
+div.footer {
+  height: 400px;
+  background-color: #b091ff;
+}
+div.PageTitle {
+	text-align: center;
+	font-size: 40px;
+	font-weight: Bold;
+	margin-top: 20px; margin-bottom: 20px;
+}
+/*Copy nav bar từ đây đến hết*/
+div.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+div.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
+  align-items: stretch;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #bee0ec;
+  height: 40px;
+  
+}
+button {
+  transition-duration: 0.3s;
+}
+button.Product-Button,
+button.HomePage-Button,
+button.About-Button {
+  font-size: 34px;
+  width: 100%;
+  border: none;
+  background-color: #bee0ec;
+  
+}
+div.lol {
+  /* lol là div chứa 3 botton của nav bar*/
+  width: calc((100%) - 1px);
+  
+} /* chỉnh độ rộng cho button vì button nằm trong div này */
+
+button.Product-Button:hover,
+button.HomePage-Button:hover,
+button.About-Button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+ 
+}
+div.MenuButton Button {
+  background-color: #116280;
+  width: 100%;
+  cursor: pointer;
+  padding: 9px;
+  margin: 1px;
+  border: none;
+  font-size: 18px;
+}
+.menu {
+
+  display: none; /*none by default*/
+  flex-direction: column;
+  align-content: center;
+  align-items: stretch;
+  
+}
+div.MenuButton Button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.E1, .E2, .E3{
+  position: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+  align-content: space-around;
+  align-items: flex-start;
+  margin-top: 150px;
+}
+div.body-image{
+  width: auto; 
+  object-fit:cover;
+  margin: 10px;
+  padding: 2px;
+  margin-left: 10%;
+}
+div.content{
+  width: 70%;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+img{
+  width:auto;
+  height:auto;
+  max-width:300px;
+}
+p.ProductName {
+  text-align: center;
+  font-weight: bold;
+}
+
+#myDIV {
+  display: none;
+}
+
+#myDIV_2 {
+  display: none;
+}
+
+#myDIV_3 {
+  display: none;
+}
