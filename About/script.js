@@ -43,7 +43,7 @@ function OverlayClick() {
 }
 
 overlay.addEventListener('click', OverlayClick);
-Product_Button.addEventListener('click',ProductButtonClick)
+Product_Button.addEventListener('click',ProductButtonClick);
 
 const submit=document.getElementById('Submit');
 submit.addEventListener('click', function whenClicked(event){ 

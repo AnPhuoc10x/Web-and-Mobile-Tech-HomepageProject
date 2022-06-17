@@ -4,6 +4,7 @@ div#Header {
   posision: relative;
   background-image: url("https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-HomepageProject/blob/main/image/Pacific%20Northwest%20X-ray%20Inc..png?raw=true");
   background-position: center;
+  background-size: 100%;
 }
 
 div.overlay {
@@ -74,6 +75,7 @@ div.MenuButton Button {
 div.MenuButton Button:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
+
 section {margin-top: 50px;
   margin-bottom: 50px;
   height: 500px;
@@ -81,11 +83,23 @@ width: 90%;
 margin: auto;
 text-align:center;
 font-size: 30px;}
+
 .introduction {
-  line-height:2.0;}
+  line-height:2.0;
+margin-top: 30px;
+font-family: helvetica, sans serif;}
+
 #visual {height:300px;
 width:100%;}
 
+.title{text-align:center;
+font-size:30px;
+background-color: #d3eaf2;
+font-weight:bold;
+margin-top:20px;
+font-family:helvetica, sans serif;}
+.details{line-height:1.5;
+font-family: helvetica, sans serif;}
 .Contact a {
   color:#d3eaf2;
   text-decoration: none;
@@ -176,3 +190,4 @@ section {height: auto;}
   padding: 20px;
   margin-bottom: 20px;
 }
+label, #feedback {font-family: Helvetica, sans serif;}
