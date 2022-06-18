@@ -89,8 +89,12 @@ font-size: 30px;}
 margin-top: 30px;
 font-family: helvetica, sans serif;}
 
-#visual {height:300px;
+#visual {height:20%;
 width:100%;}
+
+#card {display:inline-block;
+width: 50%;
+  max-width: 400px;}
 
 .title{text-align:center;
 font-size:30px;
@@ -98,8 +102,10 @@ background-color: #d3eaf2;
 font-weight:bold;
 margin-top:20px;
 font-family:helvetica, sans serif;}
+
 .details{line-height:1.5;
 font-family: helvetica, sans serif;}
+
 .Contact a {
   color:#d3eaf2;
   text-decoration: none;
