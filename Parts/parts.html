@@ -1,1 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Equipment</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+
+  <body>
+    <div class="header"></div>
+    <div class="navigation">
+      <div class="lol"> <button class="HomePage-Button">Homepage</button></div>
+      <div class="lol">
+        <button class="Product-Button">Product</button>
+        <div class="overlay"></div>
+        <div class="menu">
+          <div class="MenuButton"><button>Equipments</button></div>
+          <div class="MenuButton"><button>Supplies</button></div>
+          <div class="MenuButton"><button>Parts</button></div>
+          <div class="MenuButton"><button>Accessories</button></div>
+        </div>
+      </div>
+      <div class="lol"> <button class="About-Button">About</button></div>
+    </div>
+    <div class="bodyy">
+      <div class="PageTitle">Parts</div>
+      <div class="P1">
+        <div class="body-image">
+          <img src="http://www.pnwx.com/Parts/Collimators/Ralco/R221A_1.jpg" alt="Ralco's">
+        </div>
+        <div class="content">
+          <p class="ProductName">Multi-layer, square field, manual collimator</p>
+          <p>
+            The X-ray field is defined by six pairs of shutters, four of which are lead-lined. The six pairs of shutters move perpendicularly within the X-ray field. Two pairs of brass shutters are located near the focus, two are located near the entrance window and two are located near the exit window of the X-ray beam from the collimator. The latter shutters serve to accurately define the X-ray field edges. Shutter movements are manual, controlled by two knobs on the collimator front panel.</br>
+            Price: $2,300
+          </p>
+          <button onclick="myFunction()">Show more</button>
+          <div id="myDIV">
+
+            <head>
+              <meta charset="UTF-8" />
+              <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+              <link rel="stylesheet" href="product1.css">
+              <title>SR-130 X-Ray</title>
+            </head>
+
+            <body>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-6" style="background-color:lavender;">
+
+                    <div id="overlay">
+                      <img id="enlarge" onclick="off()" style="width:600px;height:550px;">
+                      <a id="prev-lar" class="prev" onclick="plusImgs(-1)">❮</a>
+                      <a id="next-lar" class="next" onclick="plusImgs(1)">❯</a>
+                    </div>
+
+                    <div class="mySlides">
+                      <img id="current-img" onclick="on()" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                  </div>
+                  <div class="col-sm-6" style="background-color:lavenderblush;">
+                    <h2 style="text-align:center">SR-130</h2>
+                    <p><strong>kVp Range:</strong> 40 - 100 kVp, adjustable in 1kV increments with closed loop regulation.</br>
+<strong>mA Range:</strong> Adjustable 15 & 30 mA, closed loop regulation</br>
+<strong>mAs Range:</strong> 0.15 - 120</br>
+<strong>Total Max Power Output:</strong> 3kW</br>
+<strong>Input Voltage:</strong> 115 / 230VAC 50/60Hz</br>
+<strong>Exposure Time:</strong> 0.01 – 4.00 seconds.</br>
+<strong>Indicators:</strong> Digital display of kVp, mAs and Exposure Time, X-Ray, Ready, mA Station and Fault indication.</br>
+<strong>Beam Filtration:</strong> 3.6 mm Al minimum @ 100kVp</br>
+<strong>Exposure Switch:</strong> Detachable two-position.</p>
+                  </div>
+                </div>
+              </div>
+              <script src="product1.js"></script>
+            </body>
+          </div>
+        </div>
+      </div>
+      <div class="E2">
+        <div class="body-image">
+          <img src="http://www.pnwx.com/Equipment/Tables/Biodex/Ultrasound/SoundPro/058-710_1.jpg" alt="Table">
+        </div>
+        <div class="content">
+          <p class="ProductName">Sound Pro™ Combination Ultrasound Table</P>
+          <p>
+            The Sound Pro Combination Table is so accommodating, it reduces the total amount of time required to achieve a quality image. Stress patients are off the treadmill and quickly onto the table in imaging position. Patient comfort is assured even through lengthy procedures by cushioned arm supports, a thick mattress and a multitude of comfort-driven design details. The unique swing-out cardiac scanning cutout cushion doubles as an armrest, while the leg section drops down to 40° for patients with circulatory issues.</br>
+            Price: $126 ~ $14,538</p>
+          <button onclick="myFunction_2()">Show more</button>
+          <div id="myDIV_2">
+            <p><strong>Wheels:</strong> 5" (12.7 cm) Individual locking swivel casters; central floor locking system</br>
+<strong>Patient Restraints:</strong> One body strap</br>
+<strong>Finish:</strong> Powder coat</br>
+<strong>Shipping Weight:</strong> 415 lb (188.2 kg)</br>
+<strong>Patient Capacity:</strong> 500 lb (227 kg); weight tested to four times the patient load rating.</br>
+<strong>Weight:</strong> 350 lb (159 kg)</br>
+<strong>Power:</strong>115 VAC or 230 VAC</br>
+<strong>Warranty:</strong> Two years</br>
+<strong>Certifications:</strong> ETL and cETL Listed to UL 60601-1 and CAN/CSA C22.2 No. 601.1-M90 and EN 60601-1 standards.</br></p>
+          </div>
+        </div>
+      </div>
+      <div class="E3">
+        <div class="body-image">
+          <img src="http://www.pnwx.com/Equipment/MedXray/JPI/Portable/9020HF/AJEX-9020HF_1.jpg" alt="JPI's System">
+        </div>
+        <div class="content">
+          <p class="ProductName">JPI's Ultra Lightweight High Frequency Portable X-Ray System</p>
+          <p>
+            Lighter and more powerful than almost any other equine unit, this hand held generator is small enough to be held and positioned easily yet strong enough for even the most difficult stifle and spine exposures. 
+The 9020HF comes digital-ready, with both our standard heavy duty handswitch and an RJ-11 cord socket for interfacing with digital detectors. 
+ </br>
+            Price: $8,142.86</p>
+          <button onclick="myFunction_3()">Show more</button>
+          <div id="myDIV_3">
+            <p><strong>Max output power:</strong> 1.44 kW</br>
+<strong>High frequency inverter type:</strong> 100kHz</br>
+<strong>kV rating:</strong> 40~90kV, 1kV increment</br>
+<strong>mA rating:</strong> max 20mA</br>
+<strong>mAs rating:</strong> 0.4 ~ 32 mAs, 93steps at each kV step</br>
+<strong>Exposure time:</strong> 0.02 ~ 2.0 sec</br>
+<strong>Cool-down period:</strong> 2 min at maximum output</br>
+<strong>Total filtration:</strong> min. 2.55 mm Al equivalent @ 70kVp.</br>
+<strong>X-ray tube: focal spot size:</strong> 1.22mm, target angle: 19 degrees.</br>
+<strong>Anode heat storage capacity:</strong> 13.5kHU (10 kJ).</br>
+<strong>Weight:</strong> Approx. 13lbs (6kg)</br>
+<strong>Dimensions:</strong> 5"w x 6"h x 11 5/8"d. (144mm x 295mm x 157mm), excluding hand grip</br>
+<strong>Line input power:</strong> 110VAC or 220VAC, 50/60Hz</br>
+              <strong>Shipping weights and dims:</strong> 28# / 18" x 21" x 21"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"></div>
+    <div class="more">
+      <a href="http://www.pnwx.com/Equipment/"> See More >> </a>
+    </div>
+  </body>
+  <!-- partial -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
