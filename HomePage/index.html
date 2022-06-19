@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - PageBasicLayout</title>
+  <title>CodePen - Homepage</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -10,7 +10,8 @@
 <!-- partial:index.partial.html -->
 <div id="Header">
 </div>
-<body> 
+
+<body>
   <div class="navigation">
     <div class="lol"> <button class="HomePage-Button">Homepage</button></div>
     <div class="lol">
@@ -26,15 +27,55 @@
     <div class="lol"> <button class="About-Button">About</button></div>
   </div>
   <div class="PageContent">
-  This is HOMEPAGE
-    <img src = "image/Pacific Northwest X-ray Inc..png">
+    <div id="Welcome">
+      <h2>Welcome to PNWX</h2>
+      <p>Pacific Northwest X-ray Inc, where all of your needs for x-ray products unite. We offer more than 1000+ products in the industry that suits your taste and needs in mulltiple ways</br>
+        <span> At a reasonable price. At your greatest demand!</span></p>
+    </div>
+    <img id="visual" src="https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/HomePage/image/Visual%202.jpg?raw=true">
+    <div>
+      <h2>Let discover our best product!</h2>
+    </div>
+    
+    <div class="Box">
+      <div id="ImageSlide">
+        <div class="ButtonLeft"> <button></button> </div>
+        <div id="ProductImage"></div>
+        <div class="ButtonRight"> <button></button> </div>
+      </div>
+      <div class="ProductName"></div>
+    </div>
+
+    <h2>More product are waiting for you</h2>
+    <div id="MoreProductContainer">
+      <div class="MoreProduct">
+        <img src="https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/HomePage/image/Equipments_Button.png?raw=true">
+        <a href="https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Equipments/">EQUIPMENTS</a>
+      </div>
+      <div class="MoreProduct">
+        <img src="https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/HomePage/image/Supplies_Button.png?raw=true">
+        <a href="https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Supplies/">SUPPLIES</a></div>
+      <div class="MoreProduct">
+        <img src ="https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/HomePage/image/Parts_Button.png?raw=true"><a href="https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Parts/">PARTS</a>
+      </div>
+      <div class="MoreProduct">
+        <img src="https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/HomePage/image/Accessories_Button.png?raw=true">
+        <a href="https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Accessories/">ACCESSORIES</a>
+      </div>
+    </div>   
+    <h2>Why you should choose PNWX</h2>
+<div class="WhyUs"><img src="https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/HomePage/image/WhyUs.png?raw=true"></div>
+<div class="NeedContact">
+  <p>Feel free to aproach us for any question</p>
+  <button>Contact now</button>
+</div>
   </div>
 </body>
 <footer>
   <div class="Contact">
     <p>Email: <a href="mailto:pacificnorthwest@pnwx.com"> pacificnorthwest@pnwx.com</a></p>
     <p>Phone: <a href="tel:1-503-667-3000">1-503-667-3000</a></p>
-    <p>Address: <a href ='https://goo.gl/maps/FZZBKEhPoqJQMSms9'>P.O. Box 625 * Gresham, OR 97030 * U.S.A.</a></p>
+    <p>Address: <a href='https://goo.gl/maps/FZZBKEhPoqJQMSms9'>P.O. Box 625 * Gresham, OR 97030 * U.S.A.</a></p>
     <p>Fax: <a href="fax:1-503-666-8855">1-503-666-8855</a></p>
 
     <div class="Payment"><img src="https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-HomepageProject/blob/main/image/Payment.png?raw=true"></div>
@@ -42,7 +83,9 @@
   <div class="last">©1997-2022 Pacific Northwest X-Ray Inc. - Sales & Marketing Division</br>
     All Rights Reserved</div>
   <div class="Group-Info">
-    <div> <p>Tokyo International University<br>Web and Mobile Technology<br>Group project 1</div>
+    <div>
+      <p>Tokyo International University<br>Web and Mobile Technology<br>Group project 1
+    </div>
     <div>Phuoc Nguyen 20229550</br>Le Thanh Ngoc 20229539 </br>Le Ngoc Bao Ngan 21224018 </br> Le Thanh Hoai Nam 18229031 </br>Than My Hanh 20229053 </br></div>
   </div>
 </footer>

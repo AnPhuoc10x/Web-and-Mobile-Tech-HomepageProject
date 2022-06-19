@@ -22,18 +22,19 @@ div.Contact {
   color: #d3eaf2;
   border: 0;
   position: relative;
-  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial;
+  font-family: Helvetica,Arial;
   font-size:18px;
   padding-left:3%;
   padding-top:10px;
   padding-bottom:10px;
+  margin-top:80px;
 }
 div.Group-Info {
   background-color: #282d31;
   height: auto;
   color: white;
   text-weight:bold;
-  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial;
+  font-family:Helvetica,Arial;
   font-size:20px;
 
   text-align:center;
@@ -62,6 +63,7 @@ div.Group-Info {
 }
 body {
   z-index: 0;
+  font-family:Helvetica,Arial;
 }
 
 /*Copy nav bar từ đây đến hết*/
@@ -137,8 +139,178 @@ div.MenuButton Button:hover {
 }
 
 .PageContent{
-  height:1000px; /*đổi thành auto sau khi thêm content xong*/
+  height:auto; /*đổi thành auto sau khi thêm content xong*/
 }
 
 /*Paste CSS dưới dòng này + note thêm là CSS của cái gì*/ 
 /*nhớ kiểm xem có select nhầm mấy cái ở trên k*/
+
+.Box {
+  background-color: #e2f2f8;
+  width: auto;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+margin-bottom:40px;
+  align-items: center;
+align-content: stretch;
+  padding:25px;
+}
+#ImageSlide {
+  display:flex;
+  height:400px;
+  width:800px;
+  background-color:rgba(0,0,0,0.1);
+ justify-content: space-between;
+align-items: center;
+
+  
+
+}
+#ProductImage {
+  display:flex;
+height:100%;
+ 
+}
+.ProductName {
+  background-color:rgba(0,0,0,0);
+  width:40%;
+  height:100%;
+}
+
+.ButtonLeft button {
+border-right: none;
+border-top: none;
+transform: translateX(25%) rotate(45deg);
+padding: 19px;
+background-color: rgba(0,0,0,0);
+}
+
+.ButtonLeft button:hover {
+ border-left: 5px solid rgba(0, 0, 0, 255);
+border-bottom: 5px solid rgba(0, 0, 0, 255);
+}
+
+.ButtonRight button {
+ border-left: none;
+border-bottom: none;
+transform: translateX(-25%) rotate(45deg);
+padding: 19px;
+background-color: rgba(0,0,0,0);
+}
+
+.ButtonRight button:hover {
+ border-right: 5px solid rgba(0, 0, 0, 255);
+border-top: 5px solid rgba(0, 0, 0, 255);
+
+}
+
+h2 {
+  margin-top:100px;
+   margin-bottom:50px;
+  text-align:center;
+  font-size:30px;
+  font-weight: bold;
+  }
+
+.ProductName {
+  text-align:center;
+  font-weight: bold;
+  font-size:25px;
+}
+#visual {height:auto;
+width:80%;
+}
+#Welcome{
+  display:flex;
+  flex-direction: column;
+  align-items: center
+}
+#Welcome span {
+  font-weight:bold;
+  
+}
+#Welcome p{
+  font-size:20px;
+  font-family:Helvetica,Arial;
+  text-align:center;
+  border-right:4mm solid #45b1d9;
+  border-left:4mm solid #45b1d9;
+  border-radius:30px;
+  padding-bottom:20px;
+  background-color:;
+  max-width:80%;
+  padding:30px;
+  background-color:lightble;
+
+}
+
+#MoreProductContainer{
+  display:flex;
+  width:100%;
+  justify-content: space-evenly;
+  align-content: center;
+  
+}
+.MoreProduct {
+  font-family:Helvetica,Arial;
+  font-weight:bold;
+  text-decoration:none;
+  border-radius:10px;
+  text-align:center;
+  width:15%;
+  height:20%;  
+  display:flex;
+justify-content: space-evenly;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding-top:10px;
+}
+.MoreProduct img{
+  width:50%;
+  height:50%;
+}
+.MoreProduct:hover {
+  background-color:#bee0ec;
+ transition-duration: 0.3s;
+    text-decoration:underline;
+
+}
+.MoreProduct a{
+    text-decoration:none;
+  color:Black;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:20px;
+}
+
+
+.WhyUs img{
+    width:80%;
+    height:auto;
+padding-left:10%;
+}
+
+.NeedContact {
+  background-color:#d3eaf2;
+  display:flex;
+  justify-content: space-around;
+  padding:10px;
+  margin-top:50px;
+  font-family:helvetica, sans serif;
+  font-size:20px;
+  background-image:url('image/background.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+  background-size:100%;
+  
+}
+.NeedContact button {
+  border-radius: 20px;
+  padding-left:20px;
+  padding-right:20px;
+  font-size:20px;
+}
