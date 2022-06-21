@@ -95,14 +95,15 @@ const ProductName = document.querySelector(".ProductName");
 buttonLeft.addEventListener('click', LeftonClick); 
 buttonRight.addEventListener('click', RightonClick); 
 
+let ProductLink=PHOTO_PRODUCTNAME_LINK[0];
 createImage(PHOTO_LIST[0]); //create image when page first load
 ProductName.innerHTML=PHOTO_NAME_LIST[0]; //create product name when page first load
-ProductName.addEventListener('click',event => {  open(PHOTO_PRODUCTNAME_LINK[0]);}); //add link here
-
+//ProductName.addEventListener('click',event => {  open(PHOTO_PRODUCTNAME_LINK[0]);}); //add link here
+ ProductName.addEventListener('click',event => {  open(ProductLink);});
 
 function ChangeProductName() {
- ProductName.addEventListener('click',event => {  open(ProductLink);});
   ProductName.innerHTML= ImageName;
+
 }
 
 let nextIndex = 0;
@@ -132,7 +133,7 @@ function RightonClick(){
    }
   else {
   console.log("Right clicked");
-  nextIndex++;
+  nextIndex++; 
   console.log(nextIndex);
   ImageBox.innerHTML = '';
   const AppearImage = createImage(PHOTO_LIST[nextIndex]);
