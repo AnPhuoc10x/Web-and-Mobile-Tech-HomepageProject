@@ -74,6 +74,10 @@ const PHOTO_LIST = [
   "https://i.ibb.co/bLJQz5L/frenchbread.jpg"
 ];
 const PHOTO_NAME_LIST = ["Meat Lover Pizza","Olive Pizza","Cheese Pizza"];
+const PHOTO_PRODUCTNAME_LINK = [
+  "https://i.ibb.co/LhhsyhN/deepdish.jpg",
+  "https://i.ibb.co/fQdypjL/flatbread.jpg",
+  "https://i.ibb.co/bLJQz5L/frenchbread.jpg"]; //link product zo đây
 
 function createImage(src) {
   const image = document.createElement("img");
@@ -93,9 +97,11 @@ buttonRight.addEventListener('click', RightonClick);
 
 createImage(PHOTO_LIST[0]); //create image when page first load
 ProductName.innerHTML=PHOTO_NAME_LIST[0]; //create product name when page first load
+ProductName.addEventListener('click',event => {  open(PHOTO_PRODUCTNAME_LINK[0]);}); //add link here
+
 
 function ChangeProductName() {
-  ProductName.addEventListenter('click',); //thêm link
+ ProductName.addEventListener('click',event => {  open(ProductLink);});
   ProductName.innerHTML= ImageName;
 }
 
@@ -111,6 +117,7 @@ function LeftonClick() {
   ImageBox.innerHTML = '';
   const AppearImage = createImage(PHOTO_LIST[nextIndex]);
      ImageName = PHOTO_NAME_LIST[nextIndex];
+      ProductLink = PHOTO_PRODUCTNAME_LINK[nextIndex];
     console.log(ImageName);
     ChangeProductName();
   //ImageBox.appendChild(AppearImage); 
@@ -130,6 +137,7 @@ function RightonClick(){
   ImageBox.innerHTML = '';
   const AppearImage = createImage(PHOTO_LIST[nextIndex]);
      ImageName = PHOTO_NAME_LIST[nextIndex];
+    ProductLink = PHOTO_PRODUCTNAME_LINK[nextIndex];
     console.log(ImageName);
      ChangeProductName();
  // ImageBox.appendChild(AppearImage); 

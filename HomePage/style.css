@@ -218,7 +218,8 @@ h2 {
 .ProductName {
   text-align:center;
   font-weight: bold;
-  font-size:25px;
+  font-size:50px;
+  font-family:Helvetica,Arial;
 }
 #visual {height:auto;
 width:80%;
