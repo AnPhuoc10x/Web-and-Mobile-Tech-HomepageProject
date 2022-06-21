@@ -4,7 +4,6 @@ function HeaderClick() {
   console.log('Header was clicked');
   open(
     "https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/HomePage/","_self");
-  
 }
 Header.addEventListener('click', HeaderClick);
 
@@ -96,7 +95,7 @@ createImage(PHOTO_LIST[0]); //create image when page first load
 ProductName.innerHTML=PHOTO_NAME_LIST[0]; //create product name when page first load
 
 function ChangeProductName() {
-  
+  ProductName.addEventListenter('click',); //thêm link
   ProductName.innerHTML= ImageName;
 }
 
@@ -138,3 +137,12 @@ function RightonClick(){
 
   }
 }
+
+
+document.querySelector('#ContactNowButton').addEventListener('click',event => {  open("https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/About/","_self");});
+
+
+document.querySelector("#Equipments").addEventListener('click',event => {  open("https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Equipments/","_self");});
+document.querySelector("#Accessories").addEventListener('click',event => {  open("https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Accessories/","_self");});
+document.querySelector("#Parts").addEventListener('click',event => {  open("https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Parts/","_self");});
+document.querySelector("#Supplies").addEventListener('click',event => {  open("https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Supplies/","_self");});
