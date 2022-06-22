@@ -138,11 +138,19 @@ div.MenuButton Button:hover {
 }
 
 .PageContent{
-  height:auto; /*đổi thành auto sau khi thêm content xong*/
+  height:1000px; /*đổi thành auto sau khi thêm content xong*/
 }
 
 /*Paste CSS dưới dòng này + note thêm là CSS của cái gì*/ 
 /*nhớ kiểm xem có select nhầm mấy cái ở trên k*/
+
+section {margin-top: 50px;
+  margin-bottom: 50px;
+  height: 500px;
+width: 90%;
+margin: auto;
+text-align:center;
+font-size: 30px;}
 
 .introduction {
   line-height:2.0;
@@ -165,8 +173,6 @@ font-family: helvetica, sans serif;}
 #card {display:inline-block;
 width: 50%;
   max-width: 400px;}
-
-
 
 .box {margin-right: 40%;
 margin-top: 5%;
