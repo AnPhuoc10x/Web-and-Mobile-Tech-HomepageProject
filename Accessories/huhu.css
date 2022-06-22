@@ -193,6 +193,7 @@ p.ProductName {
   position: relative;
   left: 42.5%;
   margin-bottom: 10px;
+  font-weight:bold;
 }
 
 #showmore1:hover, #showmore2:hover, #showmore3:hover{
