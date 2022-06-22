@@ -138,18 +138,11 @@ div.MenuButton Button:hover {
 }
 
 .PageContent{
-  height:1000px; /*đổi thành auto sau khi thêm content xong*/
+  height:auto; /*đổi thành auto sau khi thêm content xong*/
 }
 
 /*Paste CSS dưới dòng này + note thêm là CSS của cái gì*/ 
 /*nhớ kiểm xem có select nhầm mấy cái ở trên k*/
-section {margin-top: 50px;
-  margin-bottom: 50px;
-  height: 500px;
-width: 90%;
-margin: auto;
-text-align:center;
-font-size: 30px;}
 
 .introduction {
   line-height:2.0;
