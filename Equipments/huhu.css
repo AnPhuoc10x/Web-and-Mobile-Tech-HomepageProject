@@ -1,3 +1,148 @@
+/*CSS của header&footer*/
+div#Header {
+  height: 300px;
+  background-repeat: no-repeat;
+  posision: relative;
+  background-image: url("https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-HomepageProject/blob/main/image/Pacific%20Northwest%20X-ray%20Inc..png?raw=true");
+  background-position: center;
+  background-size:80%;
+}
+.Contact a {
+  color:#d3eaf2;
+  text-decoration: none;
+}
+.Contact a:hover {
+  color:#d3eaf2;
+  text-decoration: underline;
+}
+
+div.Contact {
+  background-color: #253941;
+  height: auto;
+  color: #d3eaf2;
+  border: 0;
+  position: relative;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial;
+  font-size:18px;
+  padding-left:3%;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:80px;
+}
+div.Group-Info {
+  background-color: #282d31;
+  height: auto;
+  color: white;
+  text-weight:bold;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial;
+  font-size:20px;
+
+  text-align:center;
+  display:flex;
+  justify-content:space-between;
+  padding: 20px 5% 20px 5% 
+}
+.last {
+  background-color: #253941;
+  text-align: center;
+  padding: 5px;
+  color:white;
+ 
+}
+.Payment img {
+  max-width: 300px;
+  height: auto;
+}
+.Payment {
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
+
+/*CSS của nav bar*/
+}
+body {
+  z-index: 0;
+}
+
+/*Copy nav bar từ đây đến hết*/
+div.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+div.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
+  align-items: stretch;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #bee0ec;
+  height: 40px;
+  
+}
+button {
+  transition-duration: 0.3s;
+}
+button.Product-Button,
+button.HomePage-Button,
+button.About-Button {
+  font-size: 34px;
+  width: 100%;
+  border: none;
+  background-color: #bee0ec;
+  
+}
+div.lol {
+  /* lol là div chứa 3 botton của nav bar*/
+  width: calc((100%) - 1px);
+  
+  
+} /* chỉnh độ rộng cho button vì button nằm trong div này */
+
+button.Product-Button:hover,
+button.HomePage-Button:hover,
+button.About-Button:hover {
+  background-color: #99d5eb;
+ 
+}
+div.MenuButton Button {
+  background-color: #76c1db;
+  width: 100%;
+  cursor: pointer;
+  padding: 9px;
+  margin: 1px;
+  border: none;
+  font-size: 18px;
+
+}
+.menu {
+
+  display: none; /*none by default*/
+  flex-direction: column;
+  align-content: center;
+  align-items: stretch;
+  
+}
+div.MenuButton Button:hover {
+    background-color: #45b1d9;
+}
+
+.PageContent{
+  height:auto; /*đổi thành auto sau khi thêm content xong*/
+}
+
+/*Paste CSS dưới dòng này + note thêm là CSS của cái gì*/ 
+/*nhớ kiểm xem có select nhầm mấy cái ở trên k*/
 .E1, .E2, .E3{
   position: center;
   display: flex;
@@ -48,6 +193,7 @@ p.ProductName {
   position: relative;
   left: 42.5%;
   margin-bottom: 10px;
+  font-weight:bold;
 }
 
 #showmore1:hover, #showmore2:hover, #showmore3:hover{
@@ -237,60 +383,3 @@ color: black;
 background-color: rgba(0, 0, 0, 0.084);
 }
 
-
-
-
-
-
-.Contact a {
-  color:#d3eaf2;
-  text-decoration: none;
-}
-.Contact a:hover {
-  color:#d3eaf2;
-  text-decoration: underline;
-}
-
-div.Contact {
-  background-color: #253941;
-  height: auto;
-  color: #d3eaf2;
-  border: 0;
-  position: relative;
-  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial;
-  font-size:18px;
-  padding-left:3%;
-  padding-top:10px;
-  padding-bottom:10px;
-}
-
-.last {
-  background-color: #253941;
-  text-align: center;
-  padding: 5px;
-  color:white;
- 
-}
-.Payment img {
-  max-width: 300px;
-  height: auto;
-}
-.Payment {
-  position: absolute;
-  right: 5%;
-  top: 30%;
-}
-
-div.Group-Info {
-  background-color: #282d31;
-  height: auto;
-  color: white;
-  font-weight:bold;
-  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial;
-  font-size:20px;
-
-  text-align:center;
-  display:flex;
-  justify-content:space-between;
-  padding: 20px 5% 20px 5% 
-}
