@@ -1,6 +1,6 @@
 /*CSS của header&footer*/
 div#Header {
-  height: 300px;
+  height: 15vw;
   background-repeat: no-repeat;
   posision: relative;
   background-image: url("https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-HomepageProject/blob/main/image/Pacific%20Northwest%20X-ray%20Inc..png?raw=true");
@@ -23,7 +23,7 @@ div.Contact {
   border: 0;
   position: relative;
   font-family: Helvetica,Arial;
-  font-size:18px;
+  font-size:1vw;
   padding-left:3%;
   padding-top:10px;
   padding-bottom:10px;
@@ -34,8 +34,8 @@ div.Group-Info {
   height: auto;
   color: white;
   text-weight:bold;
-  font-family:Helvetica,Arial;
-  font-size:20px;
+  font-family: Helvetica,Arial;
+  font-size:1vw;
 
   text-align:center;
   display:flex;
@@ -47,10 +47,10 @@ div.Group-Info {
   text-align: center;
   padding: 5px;
   color:white;
- 
+ font-size:0.8vw;
 }
 .Payment img {
-  max-width: 300px;
+  max-width: 20vw;
   height: auto;
 }
 .Payment {
@@ -63,7 +63,6 @@ div.Group-Info {
 }
 body {
   z-index: 0;
-  font-family:Helvetica,Arial;
 }
 
 /*Copy nav bar từ đây đến hết*/
@@ -87,9 +86,9 @@ div.navigation {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #bee0ec;
-  height: 40px;
   
+  height: 40px;
+  margin-bottom:1.5vw;
 }
 button {
   transition-duration: 0.3s;
@@ -97,7 +96,7 @@ button {
 button.Product-Button,
 button.HomePage-Button,
 button.About-Button {
-  font-size: 34px;
+  font-size: 2vw;
   width: 100%;
   border: none;
   background-color: #bee0ec;
@@ -121,9 +120,10 @@ div.MenuButton Button {
   width: 100%;
   cursor: pointer;
   padding: 9px;
-  margin: 1px;
-  border: none;
-  font-size: 18px;
+ 
+border:none;
+  border-bottom:solid white;
+  font-size: 1vw;
 
 }
 .menu {
