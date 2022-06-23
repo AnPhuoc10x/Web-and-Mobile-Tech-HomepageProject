@@ -63,6 +63,7 @@ div.Group-Info {
 }
 body {
   z-index: 0;
+  
 }
 
 /*Copy nav bar từ đây đến hết*/
@@ -88,7 +89,7 @@ div.navigation {
   width: 100%;
   background-color: #bee0ec;
   height: 40px;
-  
+  line-height:normal;
 }
 button {
   transition-duration: 0.3s;
@@ -113,7 +114,7 @@ button.Product-Button:hover,
 button.HomePage-Button:hover,
 button.About-Button:hover {
   background-color: #99d5eb;
- 
+ cursor:pointer;
 }
 div.MenuButton Button {
   background-color: #76c1db;
@@ -218,7 +219,7 @@ p.ProductName {
 }
 
 body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: Arial;
   margin: 0;
 }
 
