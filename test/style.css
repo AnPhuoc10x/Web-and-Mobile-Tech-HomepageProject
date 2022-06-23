@@ -47,7 +47,7 @@ div.Group-Info {
   text-align: center;
   padding: 5px;
   color:white;
- font-size:0.8vw
+ font-size:0.8vw;
 }
 .Payment img {
   max-width: 20vw;
@@ -87,7 +87,7 @@ div.navigation {
   top: 0;
   width: 100%;
   background-color: #bee0ec;
-  height: 40px;
+  height: auto;
   margin-bottom:1.5vw;
 }
 button {
