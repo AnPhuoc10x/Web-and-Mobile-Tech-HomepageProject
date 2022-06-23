@@ -2,7 +2,7 @@ let slideIndex = 0;
 let slideImg = 0;
 let n;
 
-const imgs = ["http://www.pnwx.com/Equipment/MedXray/Source-Ray/Digital/SR-130D-V_2.jpg"];
+const imgs = ["https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Equipments/images/MedXRay.jpg?raw=true"];
 
 showSlides(slideIndex);
 
@@ -41,8 +41,8 @@ function plusImgs(n) {
 
 let slideIndex_e2 = 0;
 let slideImg_e2 = 0;
-const imgs_e2 = ["http://www.pnwx.com/Equipment/Tables/Biodex/Ultrasound/SoundPro/058-710_2.jpg",
-                  "http://www.pnwx.com/Equipment/Tables/Biodex/Ultrasound/SoundPro/058-710_3.jpg"];
+const imgs_e2 = ["https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Equipments/images/Biodex%20Tables%201.jpg?raw=true",
+                  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Equipments/images/Biodex%20Tables%202.jpg?raw=true"];
 
 showSlides_e2(slideIndex_e2);
 
@@ -82,10 +82,10 @@ function plusImgs_e2(n) {
 
 let slideIndex_e3 = 0;
 let slideImg_e3 = 0;
-const imgs_e3 = ["http://www.pnwx.com/Equipment/MedXray/JPI/Veterinary/DV-110-DR_2.jpg",
-                  "http://www.pnwx.com/Equipment/MedXray/JPI/Veterinary/DV-110-DR_3.jpg",
-                  "http://www.pnwx.com/Equipment/MedXray/JPI/Veterinary/DV-110-DR_4.jpg",
-                  "http://www.pnwx.com/Equipment/MedXray/JPI/Veterinary/DV-110-DR_5.jpg"];
+const imgs_e3 = ["https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Equipments/images/JPI%20Veterinary%201.jpg?raw=true",
+                  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Equipments/images/JPI%20Veterinary%202.jpg?raw=true",
+                  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Equipments/images/JPI%20Veterinary%203.jpg?raw=true",
+                  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Equipments/images/JPI%20Veterinary%204.jpg?raw=true"];
 
 showSlides_e3(slideIndex_e3);
 
