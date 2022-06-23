@@ -89,7 +89,7 @@ div.navigation {
   width: 100%;
   background-color: #bee0ec;
   height: 40px;
-  
+  line-height:normal;
 }
 button {
   transition-duration: 0.3s;
@@ -114,7 +114,7 @@ button.Product-Button:hover,
 button.HomePage-Button:hover,
 button.About-Button:hover {
   background-color: #99d5eb;
- 
+ cursor:pointer;
 }
 div.MenuButton Button {
   background-color: #76c1db;
