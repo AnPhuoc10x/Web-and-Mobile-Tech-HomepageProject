@@ -69,16 +69,16 @@ About_Button.addEventListener("click", About_ButtonClick);
 
 //Ảnh chạy
 const PHOTO_LIST = [
-  "http://www.pnwx.com/Equipment/FilmProc/Protec/OPTIMAX_1.jpg",
-  "http://www.pnwx.com/Equipment/MedXray/Source-Ray/Digital/SR-130D-V_1.jpg",
-  "http://www.pnwx.com/Parts/Collimators/Ralco/R221A_1.jpg",
-  "http://www.pnwx.com/Supplies/Cleaners/Sanitizer/HS-4x_2.jpg"
+  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Accessories/images/X-Ray%20Film%20Processor.jpg?raw=true",
+  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Equipments/images/X-Ray%20Systems.jpg?raw=true",
+  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Parts/images/Ralco's.jpg?raw=true",
+  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Supplies/images/Hand%20Sanitizer.jpg?raw=true"
 ];
 const PHOTO_NAME_LIST = [
   "Rugged & Reliable Table-Top Automatic X-Ray Film Processor",
   "SR-130 X-Ray Generator System Features",
   "Multi-layer, square field, manual collimator",
-"Hand Sanitizer"];
+  "Hand Sanitizer"];
 const PHOTO_PRODUCTNAME_LINK = [
   "https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Accessories/",
   "https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Equipments/",
