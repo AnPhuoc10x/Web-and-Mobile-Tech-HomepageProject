@@ -211,7 +211,7 @@ h2 {
   margin-top:50px;
    margin-bottom:50px;
   text-align:center;
-  font-size:30px;
+  font-size:3vw;
   font-weight: bold;
   }
 
@@ -237,7 +237,7 @@ width:80%;
   
 }
 #Welcome p{
-  font-size:20px;
+  font-size:1.3vw;
   font-family:Helvetica,Arial;
   text-align:center;
   border-right:4mm solid #45b1d9;
@@ -287,9 +287,9 @@ cursor:pointer;
 
 
 .WhyUs img{
-    width:80%;
+    width:90%;
     height:auto;
-padding-left:10%;
+padding-left:5%;
 }
 
 .NeedContact {
@@ -299,7 +299,7 @@ padding-left:10%;
   padding:15px;
   margin-top:50px;
   font-family:helvetica, sans serif;
-  font-size:22px;
+  font-size:1.5vw;
   background-image:url('image/background.jpg');
    background-repeat: no-repeat;
    background-position: center;
@@ -311,7 +311,7 @@ padding-left:10%;
   padding-left:20px;
   padding-right:20px;
  font-weight:bold;
-  font-size:18px;
+  font-size:1vw;
 }
 .NeedContact button:hover {
 background-color:#99d5eb;
