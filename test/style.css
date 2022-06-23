@@ -1,0 +1,146 @@
+/*CSS của header&footer*/
+div#Header {
+  height: 15vw;
+  background-repeat: no-repeat;
+  posision: relative;
+  background-image: url("https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-HomepageProject/blob/main/image/Pacific%20Northwest%20X-ray%20Inc..png?raw=true");
+  background-position: center;
+  background-size:80%;
+}
+.Contact a {
+  color:#d3eaf2;
+  text-decoration: none;
+}
+.Contact a:hover {
+  color:#d3eaf2;
+  text-decoration: underline;
+}
+
+div.Contact {
+  background-color: #253941;
+  height: auto;
+  color: #d3eaf2;
+  border: 0;
+  position: relative;
+  font-family: Helvetica,Arial;
+  font-size:1vw;
+  padding-left:3%;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:80px;
+}
+div.Group-Info {
+  background-color: #282d31;
+  height: auto;
+  color: white;
+  text-weight:bold;
+  font-family: Helvetica,Arial;
+  font-size:1vw;
+
+  text-align:center;
+  display:flex;
+  justify-content:space-between;
+  padding: 20px 5% 20px 5% 
+}
+.last {
+  background-color: #253941;
+  text-align: center;
+  padding: 5px;
+  color:white;
+ font-size:0.8vw
+}
+.Payment img {
+  max-width: 20vw;
+  height: auto;
+}
+.Payment {
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
+
+/*CSS của nav bar*/
+}
+body {
+  z-index: 0;
+}
+
+/*Copy nav bar từ đây đến hết*/
+div.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+div.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
+  align-items: stretch;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #bee0ec;
+  height: 40px;
+  margin-bottom:1.5vw;
+}
+button {
+  transition-duration: 0.3s;
+}
+button.Product-Button,
+button.HomePage-Button,
+button.About-Button {
+  font-size: 2vw;
+  width: 100%;
+  border: none;
+  background-color: #bee0ec;
+  
+}
+div.lol {
+  /* lol là div chứa 3 botton của nav bar*/
+  width: calc((100%) - 1px);
+  
+  
+} /* chỉnh độ rộng cho button vì button nằm trong div này */
+
+button.Product-Button:hover,
+button.HomePage-Button:hover,
+button.About-Button:hover {
+  background-color: #99d5eb;
+ 
+}
+div.MenuButton Button {
+  background-color: #76c1db;
+  width: 100%;
+  cursor: pointer;
+  padding: 9px;
+ 
+border:none;
+  border-bottom:solid white;
+  font-size: 1vw;
+
+}
+.menu {
+
+  display: none; /*none by default*/
+  flex-direction: column;
+  align-content: center;
+  align-items: stretch;
+  
+}
+div.MenuButton Button:hover {
+    background-color: #45b1d9;
+}
+
+.PageContent{
+  height:auto; /*đổi thành auto sau khi thêm content xong*/
+}
+
+/*Paste CSS dưới dòng này + note thêm là CSS của cái gì*/ 
+/*nhớ kiểm xem có select nhầm mấy cái ở trên k*/
