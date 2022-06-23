@@ -3,12 +3,12 @@ let n;
 
 let slideIndex_e2 = 0;
 let slideImg_e2 = 0;
-const imgs_e2 = ["http://www.pnwx.com/Parts/Grids/11432_2.gif",
-                  "http://www.pnwx.com/Parts/Grids/FEWFEO-8X10_1.jpg",
-                  "http://www.pnwx.com/Parts/Grids/DOEEO-10X12_1.jpg",
-                  "http://www.pnwx.com/Parts/Grids/XRAC-8X10_1.jpg",
-                  "http://www.pnwx.com/Parts/Grids/XRAC-II8X10_1.jpg",
-                  "http://www.pnwx.com/Parts/Grids/WBGE-10X12_1.jpg"];
+const imgs_e2 = ["https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Parts/images/E2.gif?raw=true",
+                  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Parts/images/E2%20(1).jpg?raw=true",
+                  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Parts/images/E2(2).jpg?raw=true",
+                  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Parts/images/E2(3).jpg?raw=true",
+                  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Parts/images/E2(4).jpg?raw=true",
+                  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Parts/images/E2(5).jpg?raw=true"];
 
 showSlides_e2(slideIndex_e2);
 
@@ -48,7 +48,7 @@ function plusImgs_e2(n) {
 
 let slideIndex_e3 = 0;
 let slideImg_e3 = 0;
-const imgs_e3 = ["http://www.pnwx.com/Parts/Lamps/BBA_1.jpg"];
+const imgs_e3 = ["https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Parts/images/E3.jpg?raw=true"];
 
 showSlides_e3(slideIndex_e3);
 
