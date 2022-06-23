@@ -1,8 +1,8 @@
 let n;
 let slideIndex_e2 = 0;
 let slideImg_e2 = 0;
-const imgs_e2 = ["http://www.pnwx.com/Equipment/DarkEquip/ChemMixers/1923_1.gif",
-                  "http://www.pnwx.com/Equipment/DarkEquip/ChemMixers/1924_1.gif"];
+const imgs_e2 = ["https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Accessories/images/Chemical%20Mixer%201.gif?raw=true",
+                  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Accessories/images/Chemical%20Mixer%202.gif?raw=true"];
 
 showSlides_e2(slideIndex_e2);
 
@@ -42,9 +42,9 @@ function plusImgs_e2(n) {
 
 let slideIndex_e3 = 0;
 let slideImg_e3 = 0;
-const imgs_e3 = ["http://www.pnwx.com/Accessories/Transport/RC-02_1.jpg",
-                  "http://www.pnwx.com/Accessories/Transport/RC-02_2.jpg",
-                  "http://www.pnwx.com/Accessories/Transport/RC-02_3.jpg"];
+const imgs_e3 = ["https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Accessories/images/X-Ray%20Film%20portfolio%201.jpg?raw=true",
+                  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Accessories/images/X-Ray%20Film%20portfolio%202.jpg?raw=true",
+                  "https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-Project/blob/main/Accessories/images/X-Ray%20Film%20portfolio%203.jpg?raw=true"];
 
 showSlides_e3(slideIndex_e3);
 
