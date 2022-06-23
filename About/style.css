@@ -146,38 +146,39 @@ div.MenuButton Button:hover {
 
 section {margin-top: 50px;
   margin-bottom: 50px;
-  height: 500px;
 width: 90%;
 margin: auto;
 text-align:center;
-font-size: 30px;}
+font-size:2vw;}
 
 .introduction {
   line-height:2.0;
 margin-top: 30px;
-font-family: helvetica, sans serif;}
+font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";}
 
 #visual {height:auto;
 width:100%;}
 
 .title{text-align:center;
-font-size:30px;
+font-size:3vw;
 background-color: #d3eaf2;
 font-weight:bold;
 margin-top:20px;
-font-family:helvetica, sans serif;}
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";}
 
 .details{line-height:1.75;
-font-family: helvetica, sans serif;}
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";}
 
 #card {display:inline-block;
 width: 50%;
-  max-width: 400px;}
+  max-width: 40vw;}
 
-.box {margin-right: 40%;
+.box {margin-right: 20%;
 margin-top: 5%;
 margin-left: 5%;}
+
 #feedback {text-align:center;}
+
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
@@ -189,7 +190,7 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
+/* Style the submit button with a specific background color */
 section {height: auto;}
 #Submit {
   background-color:#116280 ;
@@ -198,19 +199,17 @@ section {height: auto;}
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-family: Helvetica, sans serif;
+  font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 #Submit:hover {
   background-color:#d3eaf2;
 }
 
-/* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
   margin-bottom: 20px;
 }
-label, #feedback {font-family: Helvetica, sans serif;}
+label, #feedback {font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";}
