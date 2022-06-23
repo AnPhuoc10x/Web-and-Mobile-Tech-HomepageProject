@@ -86,8 +86,8 @@ div.navigation {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #bee0ec;
-  height: auto;
+  
+  height: 40px;
   margin-bottom:1.5vw;
 }
 button {
