@@ -69,15 +69,21 @@ About_Button.addEventListener("click", About_ButtonClick);
 
 //Ảnh chạy
 const PHOTO_LIST = [
-  "https://i.ibb.co/LhhsyhN/deepdish.jpg",
-  "https://i.ibb.co/fQdypjL/flatbread.jpg",
-  "https://i.ibb.co/bLJQz5L/frenchbread.jpg"
+  "http://www.pnwx.com/Equipment/FilmProc/Protec/OPTIMAX_1.jpg",
+  "http://www.pnwx.com/Equipment/MedXray/Source-Ray/Digital/SR-130D-V_1.jpg",
+  "http://www.pnwx.com/Parts/Collimators/Ralco/R221A_1.jpg",
+  "http://www.pnwx.com/Supplies/Cleaners/Sanitizer/HS-4x_2.jpg"
 ];
-const PHOTO_NAME_LIST = ["Meat Lover Pizza","Olive Pizza","Cheese Pizza"];
+const PHOTO_NAME_LIST = [
+  "Rugged & Reliable Table-Top Automatic X-Ray Film Processor",
+  "SR-130 X-Ray Generator System Features",
+  "Multi-layer, square field, manual collimator",
+"Hand Sanitizer"];
 const PHOTO_PRODUCTNAME_LINK = [
-  "https://i.ibb.co/LhhsyhN/deepdish.jpg",
-  "https://i.ibb.co/fQdypjL/flatbread.jpg",
-  "https://i.ibb.co/bLJQz5L/frenchbread.jpg"]; //link product zo đây
+  "https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Accessories/",
+  "https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Equipments/",
+  "https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Parts/",
+ "https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Supplies/",]; //link product zo đây
 
 function createImage(src) {
   const image = document.createElement("img");
@@ -155,3 +161,7 @@ document.querySelector("#Equipments").addEventListener('click',event => {  open(
 document.querySelector("#Accessories").addEventListener('click',event => {  open("https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Accessories/","_self");});
 document.querySelector("#Parts").addEventListener('click',event => {  open("https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Parts/","_self");});
 document.querySelector("#Supplies").addEventListener('click',event => {  open("https://anphuoc10x.github.io/Web-and-Mobile-Tech-Project/Supplies/","_self");});
+
+
+
+
