@@ -221,6 +221,9 @@ h2 {
   font-size:50px;
   font-family:Helvetica,Arial;
 }
+.ProductName:hover {
+  cursor: pointer; }
+
 #visual {height:auto;
 width:80%;
 }
