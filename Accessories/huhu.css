@@ -103,6 +103,12 @@ div.navigation {
   margin-bottom: 1.5vw;
 }
 
+@media screen and (max-width: 600px) {
+  div.navigation {
+    height: 20px;
+  }
+}
+
 button {
   transition-duration: 0.3s;
 }
@@ -120,9 +126,12 @@ button.About-Button {
 div.lol {
   /* lol là div chứa 3 botton của nav bar*/
   width: calc((100%) - 1px);
-
+  margin: auto;
 
 }
+
+
+
 
 /* chỉnh độ rộng cho button vì button nằm trong div này */
 
@@ -193,16 +202,36 @@ div.body-image {
 }
 
 div.content {
-  width: 80%;
   margin-left: 5%;
-  margin-right: 5%;
-  font-size:1.5vw;
+  margin-right: 14%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  div.content {
+    text-align: justify;
+    margin: 0 25;
+  }
 }
 
 img {
   width: auto;
   height: auto;
   max-width: 300px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  img {
+    max-width: 250px;
+  }
+
+  #current-img,
+  #current-img-e2,
+  #current-img-e3 {
+    max-width: 300px;
+  }
 }
 
 p.ProductName {
@@ -229,7 +258,7 @@ p.ProductName {
   background-color: transparent;
   position: relative;
   left: 42.5%;
-  margin-bottom: 1vw;
+  margin-bottom: 10px;
   font-weight: bold;
 }
 
@@ -248,9 +277,9 @@ p.ProductName {
 
 .introduction {
   line-height: 2.0;
-  margin-top: 2vw;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 1.5vw;
+  margin-top: 30px;
+  font-family: helvetica, sans serif;
+  font-size: 3vw;
   margin-left: 9%;
   margin-right: 9%;
   text-align: center;
@@ -295,11 +324,11 @@ img {
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 1.6vw;
-  margin-top: -5vw;
+  padding: 16px;
+  margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
@@ -344,9 +373,9 @@ img {
 #current-img-e2,
 #current-img-e3 {
   height: 470px;
-  
-  left: 2vw;
-  top: 1vw;
+
+  left: 20px;
+  top: 10px;
 }
 
 #current-img:hover,
@@ -421,12 +450,23 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  width: 50vw;
+  max-width: 500px;
+  height: 500px;
 }
+
+@media screen and (max-width: 600px) {
+
+  #enlarge-e1,
+  #enlarge-e2,
+  #enlarge-e3 {F
+    width: 350px
+  }
+}
+
 
 #x {
   cursor: pointer;
-  font-size: 3vw;
+  font-size: 30px;
   position: absolute;
   left: 66.5%;
   top: 8.5%;
