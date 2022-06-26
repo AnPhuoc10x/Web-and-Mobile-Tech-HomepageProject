@@ -103,6 +103,12 @@ div.navigation {
   margin-bottom: 1.5vw;
 }
 
+@media screen and (max-width: 600px) {
+  div.navigation {
+    height: 20px;
+  }
+}
+
 button {
   transition-duration: 0.3s;
 }
@@ -120,9 +126,12 @@ button.About-Button {
 div.lol {
   /* lol là div chứa 3 botton của nav bar*/
   width: calc((100%) - 1px);
-
+  margin: auto;
 
 }
+
+
+
 
 /* chỉnh độ rộng cho button vì button nằm trong div này */
 
@@ -193,15 +202,36 @@ div.body-image {
 }
 
 div.content {
-  width: 70%;
   margin-left: 5%;
-  margin-right: 10%;
+  margin-right: 14%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  div.content {
+    text-align: justify;
+    margin: 0 25;
+  }
 }
 
 img {
   width: auto;
   height: auto;
   max-width: 300px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  img {
+    max-width: 250px;
+  }
+
+  #current-img,
+  #current-img-e2,
+  #current-img-e3 {
+    max-width: 300px;
+  }
 }
 
 p.ProductName {
@@ -249,7 +279,7 @@ p.ProductName {
   line-height: 2.0;
   margin-top: 30px;
   font-family: helvetica, sans serif;
-  font-size: 30px;
+  font-size: 3vw;
   margin-left: 9%;
   margin-right: 9%;
   text-align: center;
@@ -343,7 +373,7 @@ img {
 #current-img-e2,
 #current-img-e3 {
   height: 470px;
-  
+
   left: 20px;
   top: 10px;
 }
@@ -420,8 +450,19 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  width: 500px;
+  max-width: 500px;
+  height: 500px;
 }
+
+@media screen and (max-width: 600px) {
+
+  #enlarge-e1,
+  #enlarge-e2,
+  #enlarge-e3 {
+    width: 350px
+  }
+}
+
 
 #x {
   cursor: pointer;
